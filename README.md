@@ -27,6 +27,18 @@ The GitHub webhook endpoint is implemented, but requires GITHUB_WEBHOOK_SECRET, 
 
 The current support guidance is a deterministic, explainable heuristic. It is not an AI model, does not diagnose students, and must not be used as an automated high-stakes decision. The AI assistant/API integration is planned but not connected.
 
+
+## Streamlit demo (quickest live portfolio link)
+
+A separate Streamlit version is available at the repository root in `streamlit_app.py`. The original Next.js app remains intact.
+
+- Install Python 3.11+ dependencies with `pip install -r requirements.txt`.
+- Run locally with `streamlit run streamlit_app.py`.
+- Deploy on Streamlit Community Cloud using repository `Kamleshkumarmandal/LearnOps-AI-Student-Success-Platform`, branch `main`, entrypoint `streamlit_app.py`.
+- See [docs/streamlit-deployment.md](docs/streamlit-deployment.md) for exact deployment steps.
+
+The Streamlit version has interactive cohort filters, an explainable mentor-support score, priority-ranked follow-ups, prerequisite learning paths, a sample engineering activity feed, learner creation and CSV export. Its data is in-memory sample data and is not connected to Supabase or live GitHub events.
+
 ## Tech stack
 
 - Next.js 15.5.29 (patched Next.js 15 line)
