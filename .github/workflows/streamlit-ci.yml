@@ -8,6 +8,7 @@ on:
       - "learnops_engine.py"
       - "requirements.txt"
       - "tests/test_learnops_engine.py"
+      - "tests/test_streamlit_smoke.py"
       - ".github/workflows/streamlit-ci.yml"
   pull_request:
     branches: [main]
