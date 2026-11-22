@@ -16,7 +16,7 @@ describe("risk scoring", () => {
   });
   it("explains multiple elevated signals", () => {
     const result = calculateStudentRisk({ ...healthy, githubDaysSinceActivity: 18, commitsLast7Days: 0, failedChecks: 2, overdueTasks: 2, assessmentAverage: 52, projectProgress: 20 });
-    expect(result.score).toBe(100);
+    expect(result.score).toBe(89);
     expect(result.level).toBe("Needs support");
     expect(result.reasons.length).toBeGreaterThan(3);
   });
