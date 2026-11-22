@@ -30,6 +30,9 @@ The current support guidance is a deterministic, explainable heuristic. It is no
 
 ## Streamlit demo (quickest live portfolio link)
 
+🚀live demo
+https://learnops-ai-student-success-platform-bgj59czocjeswmqoyxhe3u.streamlit.app/
+
 A separate Streamlit version is available at the repository root in `streamlit_app.py`. The original Next.js app remains intact.
 
 - Install Python 3.11+ dependencies with `pip install -r requirements.txt`.
